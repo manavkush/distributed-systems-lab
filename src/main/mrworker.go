@@ -21,6 +21,7 @@ func main() {
 		fmt.Fprintf(os.Stderr, "Usage: mrworker xxx.so\n")
 		os.Exit(1)
 	}
+	log.Println(os.Args)
 
 	mapf, reducef := loadPlugin(os.Args[1])
 
