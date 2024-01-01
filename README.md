@@ -1,1 +1,1 @@
- Lab assignments for distributed systems (6.024 MIT)
+ Lab assignments for distributed systems (6.824 MIT)
